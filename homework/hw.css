@@ -2,26 +2,12 @@ body {
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right , rgb(184, 84, 84) ,rgb(87, 111, 198));
-}
-.file-home {
-    font-family: 'Courier New', Courier, monospace; /* Change the font for file.html */
-}
+    background: linear-gradient(to right ,  #e597dacc 
+    , #c5e378 );
 
-.file-about {
-    font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Change the font for file1.html */
 }
-
-.file-contact {
-    font-family: 'Verdana', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Change the font for file2.html */
-}
-
-.file-hey-people {
-    font-family: 'Times New Roman', Times, serif; /* Change the font for file3.html */
-}
-
 .navbar {
-    background-color: #000000;
+    background-color:  #000000 ;
     width: 100%;
     height: 50px;
     padding-top: 15px;
@@ -36,8 +22,8 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
-    background-color: #9eaaed;
-    color: white;
+    background-color: #cee676;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
 }
@@ -63,13 +49,44 @@ body {
 .main-content {
    
     text-align: center;
+}
  
 h1 {
     margin-bottom: 10px;
+    font-size: 2.5em;
 }
 
 p {
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center; 
+    font-size:1.2em ;
+}
+html{
+    font-size: 40px;
+}
+.px{
+    font-size: 30px;
+    color: rgb(13, 13, 13);
+}
+.em{
+    font-size: 2em;
+    color:rgb(13, 13, 13) ;
+;
+}
+.rem{
+    font-size: 2rem;
+    color: rgb(13, 13, 13);
+}
+.percent{
+    font-size: 100%;
+    color: rgb(13, 13, 13);
+}
+.vh {
+    font-size: 10vh; 
+    color: rgb(13, 13, 13);
+}
+.vw{
+    font-size: 10vw; 
+    color: rgb(13, 13, 13);
 }
